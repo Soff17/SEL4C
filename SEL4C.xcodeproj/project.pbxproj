@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EB0B7CB2AA557B9002E0849 /* ViewControllerTableroInicial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB0B7CA2AA557B9002E0849 /* ViewControllerTableroInicial.swift */; };
 		8EEFEFFB2AA3D24700809FEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEFEFFA2AA3D24700809FEE /* AppDelegate.swift */; };
 		8EEFEFFD2AA3D24700809FEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEFEFFC2AA3D24700809FEE /* SceneDelegate.swift */; };
 		8EEFEFFF2AA3D24700809FEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEFEFFE2AA3D24700809FEE /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8EB0B7CA2AA557B9002E0849 /* ViewControllerTableroInicial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableroInicial.swift; sourceTree = "<group>"; };
 		8EEFEFF72AA3D24700809FEE /* SEL4C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEL4C.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EEFEFFA2AA3D24700809FEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EEFEFFC2AA3D24700809FEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				8EEFEFFC2AA3D24700809FEE /* SceneDelegate.swift */,
 				8EEFEFFE2AA3D24700809FEE /* ViewController.swift */,
 				8EEFF0002AA3D24700809FEE /* Main.storyboard */,
+				8EB0B7CA2AA557B9002E0849 /* ViewControllerTableroInicial.swift */,
 				8EEFF0032AA3D24900809FEE /* Assets.xcassets */,
 				8EEFF0052AA3D24900809FEE /* LaunchScreen.storyboard */,
 				8EEFF0082AA3D24900809FEE /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EEFEFFF2AA3D24700809FEE /* ViewController.swift in Sources */,
+				8EB0B7CB2AA557B9002E0849 /* ViewControllerTableroInicial.swift in Sources */,
 				8EEFEFFB2AA3D24700809FEE /* AppDelegate.swift in Sources */,
 				8EEFEFFD2AA3D24700809FEE /* SceneDelegate.swift in Sources */,
 			);
