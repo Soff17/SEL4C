@@ -9,6 +9,7 @@ import UIKit
 
 class ViewControllerTableroInicial: UIViewController {
 
+    @IBOutlet weak var btnRecursos: UIButton!
     @IBOutlet weak var btnAct1: UIButton!
     @IBOutlet weak var imageChange: UIImageView!
     @IBOutlet weak var btnEvaluaciones: UIButton!
@@ -20,16 +21,19 @@ class ViewControllerTableroInicial: UIViewController {
     }
     
     @IBAction func btn1Pressed(_ sender: UIButton) {
-            // Cambiar la imagen cuando se presiona el botón btn1
         imageChange.image = UIImage(named: "6 - tableroEvaluaciones")
         btnAct1.isEnabled = true
         }
         
-        @IBAction func btn2Pressed(_ sender: UIButton) {
-            // Cambiar la imagen cuando se presiona el botón btn2
-            imageChange.image = UIImage(named: "6.8 - tableroEv")
-            btnAct1.isEnabled = false
-        }
+    @IBAction func btn2Pressed(_ sender: UIButton) {
+        imageChange.image = UIImage(named: "6.8 - tableroEv")
+        btnAct1.isEnabled = false
+    }
+    
+    @IBAction func btn3Pressed(_ sender: UIButton) {
+        imageChange.image = UIImage(named: "6.9 - tableroRecursos")
+        btnAct1.isEnabled = false
+    }
     
     /*
     // MARK: - Navigation
