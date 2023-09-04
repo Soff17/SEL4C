@@ -219,7 +219,7 @@
         <!--Item 1-->
         <scene sceneID="k92-iV-0jX">
             <objects>
-                <viewController id="hU5-zg-2kL" sceneMemberID="viewController">
+                <viewController id="hU5-zg-2kL" customClass="ViewControllerTableroInicial" customModule="SEL4C" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HZF-oc-DbV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -237,11 +237,35 @@
                                     <segue destination="SeM-Bh-cLj" kind="show" id="ifr-eR-6OH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pg-pz-CnG">
+                                <rect key="frame" x="66" y="173" width="24" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <action selector="btn1Pressed:" destination="hU5-zg-2kL" eventType="touchUpInside" id="IRu-Mu-G4E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMF-Zs-WtF">
+                                <rect key="frame" x="134" y="162" width="82" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <action selector="btn2Pressed:" destination="hU5-zg-2kL" eventType="touchUpInside" id="LAV-5x-AZy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pGV-Gf-psS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" image="item1" id="a1S-Hg-puI"/>
+                    <connections>
+                        <outlet property="btnAct1" destination="FgA-h4-b1L" id="GDH-SB-uwc"/>
+                        <outlet property="btnActividades" destination="6pg-pz-CnG" id="WxU-I4-zlX"/>
+                        <outlet property="btnEvaluaciones" destination="IMF-Zs-WtF" id="o76-mN-f3U"/>
+                        <outlet property="imageChange" destination="TaD-Gu-oOT" id="rvj-Cl-KJ8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IkU-Lf-9JE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -367,7 +391,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="f2B-18-NqD">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="Fuc-iK-QPd">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="941-kx-7Ob">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="941-kx-7Ob">
                                 <rect key="frame" x="290" y="5.6666666666666679" width="87" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -703,7 +727,6 @@
         <!--Navigation Controller-->
         <scene sceneID="ESn-KP-swK">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kuE-jF-ncr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IPw-oS-OVd" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zlU-rY-SsL">
@@ -715,6 +738,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="0mc-QQ-DsT"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kuE-jF-ncr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-341.2213740458015" y="-556.33802816901414"/>
         </scene>
